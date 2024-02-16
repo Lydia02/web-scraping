@@ -2,7 +2,7 @@
 
 ## Introduction 
 
- WebScrapeVis is the comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and the pricing strategies.
+ WebScrapeVis is the comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and the pricing strategies. For this project, data was scraped from Ebay, Amazon and Jumia Nigeria websites.
 
 #### Link to the Presentation slides
 
@@ -30,7 +30,7 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 ## Usage
 
-- **Web Scraping**: Execute `scrape.js` to collect smartphone pricing data. Data is saved in `scrapedData.json`.
+- **Web Scraping**: Execute the following to collect smartphone pricing data. Data is saved in their respective json files.
 
   ```bash
   node jumia.js
