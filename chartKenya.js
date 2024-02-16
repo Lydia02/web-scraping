@@ -26,6 +26,14 @@
                 }]
             },
             options: {
+                plugins: {
+                    legend: {
+                        labels: {
+                            // Change the color here
+                            color: 'rgb(240, 248, 255)' // Example color
+                        }
+                    }
+                },
                 scales: {
                     y: {
                         beginAtZero: true

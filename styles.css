@@ -1,3 +1,20 @@
+body {
+    background-color: #03223b; /* Light gray background */
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+h1{
+    color: aliceblue;
+   align-items: center;
+   margin: 10;
+   justify-content: center
+
+}
+
 /* charts.css */
 .chart-container {
     display: flex;
@@ -6,6 +23,6 @@
 }
 
 .chart-box {
-    width: 33%; /* Adjust the width as needed for your layout */
-    height: 400px; /* Adjust the height as needed */
+    width: 45%; /* Adjust the width as needed for your layout */
+    height: 230px; /* Adjust the height as needed */
 }
