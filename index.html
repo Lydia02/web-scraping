@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smartphone Pricing Trends</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="node_modules\jquery\dist\jquery.min.js"></script>
-    <script src="node_modules\chart.js\dist\chart.umd.js"></script> 
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/charts.css"> <!-- Link to the new CSS file -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/chart.js/dist/chart.umd.js"></script>
 </head>
 <body>
-    <div id="chartContainer" style="width: 100%; height: 400px;">
-        <canvas id="pricingTrendsChart"></canvas>
+    <div class="chart-container">
+        <div id="chartContainerNigeria" class="chart-box">
+            <canvas id="pricingTrendsChartNigeria"></canvas>
+        </div>
+        <div id="chartContainerKenya" class="chart-box">
+            <canvas id="pricingTrendsChartKenya"></canvas>
+        </div>
+        <div id="chartContainerGhana" class="chart-box">
+            <canvas id="pricingTrendsChartGhana"></canvas>
+        </div>
     </div>
-    <script src="dataVisualization.js"></script>
+    <script src="chartNigeria.js"></script>
+    <script src="chartKenya.js"></script>
+    <script src="chartGhana.js"></script>
 </body>
 </html>

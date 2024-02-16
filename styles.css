@@ -1,0 +1,11 @@
+/* charts.css */
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.chart-box {
+    width: 33%; /* Adjust the width as needed for your layout */
+    height: 400px; /* Adjust the height as needed */
+}
