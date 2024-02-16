@@ -61,7 +61,7 @@ This README is the primary documentation source. The codebase includes comments 
 To test the visualization:
 
 1. Ensure `scrapedData.json` exists and contains valid data.
-2. Open `index.html` in a modern web browser.
+2. Run `index.html` in a modern web browser.
 3. Interact with the visualizations to test functionalities like zooming and panning.
 
 ## Running on a Live Server
@@ -101,6 +101,7 @@ This setup enables real-time interaction with the project, allowing you to view 
 ## Contributors
 
 ALU January 2024 Cohort 1 and 2
+ALU May 2023
 
 ## License
 
