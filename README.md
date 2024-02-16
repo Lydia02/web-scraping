@@ -66,7 +66,7 @@ To test the visualization:
 
 ## Running on a Live Server
 
-After setting up the project locally, you can run it on a live server to interact with the web application in real-time. This process will serve your project files on a local web server, making it accessible through a web browser.
+After setting up the project locally, you can run it on a live server to interact with the web application in real-time. This process will serve your project files on a local web server, making it easly accessible through a web browser.
 
 ### Using Visual Studio Code Live Server
 
