@@ -104,5 +104,4 @@ ALU January 2024 Cohort 1, 2, and 3
 ALU May 2023
 
 ## License
-License
 Define the license under which the project is released.
