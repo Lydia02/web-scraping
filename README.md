@@ -57,7 +57,7 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 ## Configuration
 
-This project requires no additional configuration for basic usage. To customize scraping or visualization, modify `scrape.js` and `datavisualization.js`.
+This project requires no additional configuration for basic usage. To customize scraping or visualization, modify `scrape.js`, `chartKenya.js`, `chartGhana.js` and `chartNigeria.js`.
 
 ## Documentation
 
@@ -109,7 +109,7 @@ This setup enables real-time interaction with the project, allowing you to view 
 
 ## Contributors
 
-ALU January 2024 cohort 1&2
+ALU Software Engineering January 2024 cohort 1&2
 
 #### Link to the presentation slides
 
