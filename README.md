@@ -1,12 +1,10 @@
 ### WebScraping Smartphone Pricing Trends Analysis.
 
-## Introduction
+## Introduction 
 
  WebScrapeVis is the comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and the pricing strategies.
 
-WebScraping is a comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and pricing strategies.
-
-#### Link to slides
+#### Link to the Presentation slides
 
 https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
 
@@ -59,7 +57,7 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 ## Configuration
 
-This project requires no additional configuration for basic usage. To customize scraping or visualization, modify `scrape.js` and `datavisualization.js`.
+This project requires no additional configuration for basic usage. To customize scraping or visualization, modify `scrape.js`, `chartKenya.js`, `chartGhana.js` and `chartNigeria.js`.
 
 ## Documentation
 
@@ -111,15 +109,16 @@ This setup enables real-time interaction with the project, allowing you to view 
 
 ## Contributors
 
-ALU January 2024 cohort 1&2
+ALU Software Engineering January 2024 cohort 1&2
 
-#### Link to slides
+#### Link to the presentation slides
 
 https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
 
   ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for detail
+##  We are Happy To Code
 
 ## Happy Coding 🎉
 
