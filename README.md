@@ -27,10 +27,10 @@ Ensure Node.js is installed on your system, then follow these steps:
 ## Usage
 
 - **Web Scraping**: Execute `scrape.js` to collect smartphone pricing data. Data is saved in `scrapedData.json`.
-   
-   ```bash
-   node scrape.js
-   ```
+
+  ```bash
+  node scrape.js
+  ```
 
 - **Data Visualization**: Access `index.html` with a web browser to view interactive pricing trend graphs.
 
@@ -43,10 +43,10 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 ## Dependencies
 
-- Node.js
-- Selenium WebDriver
-- Chart.js
-- jQuery
+- ![Node.js](images/nodejs-ar21.svg)
+- ![Selenium WebDriver](images/selenium-1.svg)
+- ![Chart.js](images/chartjs.png)
+- ![jQuery](images/jquery-ar21.svg)
 
 ## Configuration
 
@@ -73,16 +73,19 @@ After setting up the project locally, you can run it on a live server to interac
 If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live Server extension to quickly start a server.
 
 1. **Install Live Server Extension**:
+
    - Open VS Code and navigate to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
    - Search for "Live Server" and click on the install button.
 
 2. **Open the Project**:
+
    - Open the project folder in VS Code by going to File > Open Folder and selecting the `alu-web-scraping` directory.
 
 3. **Start Live Server**:
+
    - Right-click on the `index.html` file in the VS Code explorer and select "Open with Live Server", or click on the "Go Live" button at the bottom right of the VS Code window.
    - Your default web browser will open, and the project will be served from a local URL, typically `http://127.0.0.1:5500`.
-  
+
      ### Accessing the Web Application
 
 - Open your web browser and go to the URL provided by Live Server or `http-server`. You should now see the project running and can interact with the web application.
@@ -91,7 +94,6 @@ If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live 
 This setup enables real-time interaction with the project, allowing you to view changes live as you modify files or experiment with different Regular Expressions.
 
  <img width="690" alt="piechart" src="https://github.com/Lydia02/alu-web-scraping/assets/37791436/67bf45e5-c36e-4833-ad23-00d127826caf">
-
 
 ## Troubleshooting
 
@@ -104,4 +106,5 @@ ALU January 2024 Cohort 1, 2, and 3
 ALU May 2023
 
 ## License
+
 Define the license under which the project is released.
