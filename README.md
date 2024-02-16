@@ -33,7 +33,9 @@ Ensure Node.js is installed on your system, then follow these steps:
 - **Web Scraping**: Execute `scrape.js` to collect smartphone pricing data. Data is saved in `scrapedData.json`.
 
   ```bash
-  node scrape.js
+  node jumia.js
+  node ebay.js
+  node amazon.js
   ```
 
 - **Data Visualization**: Access `index.html` with a web browser to view interactive pricing trend graphs.
@@ -57,7 +59,7 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 ## Configuration
 
-This project requires no additional configuration for basic usage. To customize scraping or visualization, modify `scrape.js`, `chartKenya.js`, `chartGhana.js` and `chartNigeria.js`.
+This project requires no additional configuration for basic usage. To customize scraping or visualization, modify  `chartjumia.js`, `chartEbay.js` and `chartAmazon.js`.
 
 ## Documentation
 
@@ -67,7 +69,7 @@ This README is the primary documentation source. The codebase includes comments 
 
 To test the visualization:
 
-1. Ensure `scrapedData.json` exists and contains valid data.
+1. Ensure `scrapedDataJumia.json`, `scrapedDataEbay.json`, `scrapedDataAmazon.json` exists and contains valid data.
 2. Run `index.html` in a modern web browser.
 3. Interact with the visualizations to test functionalities like zooming and panning.
 
@@ -98,14 +100,16 @@ If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live 
 - Open your web browser and go to the URL provided by Live Server or `http-server`. You should now see the project running and can interact with the web application.
 - Navigate through the application sections to test different Regex patterns and data types as per the project's features.
 
-This setup enables real-time interaction with the project, allowing you to view changes live as you modify files or experiment with different Regular Expressions.
+This setup enables real-time interaction with the project, allowing you to view the visualized data.
 
- <img width="908" alt="finalpie" src="https://github.com/Lydia02/alu-web-scraping/assets/37791436/ce1f7416-b51f-46c5-a6ed-6feaaeee42d3">
+
+<img width="960" alt="finallydone" src="https://github.com/Lydia02/alu-web-scraping/assets/37791436/8a4660e4-c62d-4e7e-94c3-a402d1772728">
+
 
 ## Troubleshooting
 
 - **Web Scraping**: If errors occur, verify the target website's structure, your internet connection, and Selenium WebDriver setup.
-- **Visualization**: Ensure `scrapedData.json` is properly formatted and all dependencies are installed correctly.
+- **Visualization**: Ensure `scrapedDataJumia.json`, `scrapedDataEbay.json`, `scrapedDataAmazon.json` is properly formatted and all dependencies are installed correctly.
 
 ## Contributors
 
