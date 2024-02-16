@@ -117,4 +117,9 @@ ALU January 2024 cohort 1&2
 
 https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
 
-    ## License
+  ## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for detail
+
+## Happy Coding 🎉
+
