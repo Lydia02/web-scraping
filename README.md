@@ -1,22 +1,14 @@
-### WebScrapeVis: Smartphone Pricing Trends Analysis.
-
-#### Link to slide
-
-https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
-
-### Introduction
-
-=======
-
-## Link to slide
-
-https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
+### WebScraping Smartphone Pricing Trends Analysis.
 
 ## Introduction
 
-# WebScrapeVis is a comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and the pricing strategies.
+ WebScrapeVis is the comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and the pricing strategies.
 
-WebScrapeVis is a comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and pricing strategies.
+WebScraping is a comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and pricing strategies.
+
+#### Link to slides
+
+https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
 
 ### Table of Contents
 
@@ -92,7 +84,7 @@ If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live 
 1. **Install Live Server Extension**:
 
    - Open VS Code and navigate to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
-   - Search for "Live Server" and click on the install button.
+   - Search for "Live Server" and click on the installing button.
 
 2. **Open the Project**:
 
@@ -110,7 +102,7 @@ If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live 
 
 This setup enables real-time interaction with the project, allowing you to view changes live as you modify files or experiment with different Regular Expressions.
 
- <img width="690" alt="piechart" src="https://github.com/Lydia02/alu-web-scraping/assets/37791436/67bf45e5-c36e-4833-ad23-00d127826caf">
+ <img width="908" alt="finalpie" src="https://github.com/Lydia02/alu-web-scraping/assets/37791436/ce1f7416-b51f-46c5-a6ed-6feaaeee42d3">
 
 ## Troubleshooting
 
@@ -121,4 +113,13 @@ This setup enables real-time interaction with the project, allowing you to view 
 
 ALU January 2024 cohort 1&2
 
-    ## License
+#### Link to slides
+
+https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
+
+  ## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for detail
+
+## Happy Coding 🎉
+
