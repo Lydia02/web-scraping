@@ -7,14 +7,14 @@ $(document).ready(function() {
 });
 
 function parseData(data) {
-    // Transform data into a suitable format for charting
+    // Transform data into the suitable format for charting
     // For simplicity, this example assumes data is directly usable after parsing
     return data;
 }
 function createChart(smartphones) {
     var ctx = $('#pricingTrendsChart').get(0).getContext('2d');
     var chart = new Chart(ctx, {
-        // Chart configuration goes here
+        // here is Chart configuration 
         type: 'line', // or 'bar' for bar charts
         data: {
             labels: smartphones.map(item => item.scrapeDateTime), // Extract date/time for x-axis
