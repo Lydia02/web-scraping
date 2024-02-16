@@ -61,7 +61,7 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 - ![Selenium WebDriver](images/selenium%20logo.png) **Selenium WebDriver**
 
-- ![Chart.js](images/chartjs.png) **Chart.js**
+- ![Chart.js](<images/chartjs%20(1).png>) **Chart.js**
 
 - ![jQuery](images/jquery-official.svg) **jQuery**
 
