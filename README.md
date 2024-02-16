@@ -92,7 +92,7 @@ If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live 
 1. **Install Live Server Extension**:
 
    - Open VS Code and navigate to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
-   - Search for "Live Server" and click on the install button.
+   - Search for "Live Server" and click on the installing button.
 
 2. **Open the Project**:
 
