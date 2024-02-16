@@ -1,6 +1,6 @@
 # WebScrapeVis: Smartphone Pricing Trends Analysis.
 
-## Link to slide 
+#### Link to slide 
 https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
 ## Introduction
 
@@ -11,7 +11,7 @@ WebScrapeVis is a comprehensive solution for scraping, analyzing, and visualizin
 WebScrapeVis is a comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and pricing strategies.
 >>>>>>> 0a9b731b05d71b6424035b3f250c321961f9a664
 
-## Table of Contents
+### Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -50,7 +50,7 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 ## Dependencies
 
-- ![Node.js](images/nodejs-ar21.svg)
+- ![Node.js](images/nodejs-icon.svg)
 - ![Selenium WebDriver](images/selenium%20logo.png)
 - ![Chart.js](images/chartjs.png)
 - ![jQuery](images/jquery-ar21.svg)
