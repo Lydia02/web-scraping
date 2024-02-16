@@ -7,7 +7,7 @@ $(document).ready(function() {
             label: item.productName
         }));
 
-        // Create the chart
+        // Create chart
         createChart(chartData);
     });
 });
