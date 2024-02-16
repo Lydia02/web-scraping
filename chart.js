@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.getJSON('scrapedData.json', function(data) {
-        // Process the data used for the chart
+        // Processing  the data used for the chart
         const chartData = data.map(item => {
             return {
                 x: new Date(item.scrapeDateTime),
