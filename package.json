@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chart.js": "^4.4.1",
     "chromedriver": "^121.0.0",
+    "jquery": "^3.7.1",
     "selenium-webdriver": "^4.17.0"
   }
 }
