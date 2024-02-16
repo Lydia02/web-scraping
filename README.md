@@ -1,10 +1,24 @@
-# WebScrapeVis: Smartphone Pricing Trends Analysis
+### WebScrapeVis: Smartphone Pricing Trends Analysis.
+
+#### Link to slide
+
+https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
+
+### Introduction
+
+=======
+
+## Link to slide
+
+https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
 
 ## Introduction
 
+# WebScrapeVis is a comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and the pricing strategies.
+
 WebScrapeVis is a comprehensive solution for scraping, analyzing, and visualizing smartphone pricing data from online retailers. By leveraging the power of Selenium WebDriver for robust web scraping and utilizing jQuery and Chart.js for dynamic data visualization, WebScrapeVis offers valuable insights into market trends and pricing strategies.
 
-## Table of Contents
+### Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -27,10 +41,10 @@ Ensure Node.js is installed on your system, then follow these steps:
 ## Usage
 
 - **Web Scraping**: Execute `scrape.js` to collect smartphone pricing data. Data is saved in `scrapedData.json`.
-   
-   ```bash
-   node scrape.js
-   ```
+
+  ```bash
+  node scrape.js
+  ```
 
 - **Data Visualization**: Access `index.html` with a web browser to view interactive pricing trend graphs.
 
@@ -43,10 +57,13 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 ## Dependencies
 
-- Node.js
-- Selenium WebDriver
-- Chart.js
-- jQuery
+- ![Node.js](images/nodejs-icon.svg) **Node.js**
+
+- ![Selenium WebDriver](images/selenium%20logo.png) **Selenium WebDriver**
+
+- ![Chart.js](<images/chartjs%20(1).png>) **Chart.js**
+
+- ![jQuery](images/jquery-official.svg) **jQuery**
 
 ## Configuration
 
@@ -61,8 +78,39 @@ This README is the primary documentation source. The codebase includes comments 
 To test the visualization:
 
 1. Ensure `scrapedData.json` exists and contains valid data.
-2. Open `index.html` in a modern web browser.
+2. Run `index.html` in a modern web browser.
 3. Interact with the visualizations to test functionalities like zooming and panning.
+
+## Running on a Live Server
+
+After setting up the project locally, you can run it on a live server to interact with the web application in real-time. This process will serve your project files on a local web server, making it easily accessible through a web browser.
+
+### Using Visual Studio Code Live Server
+
+If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live Server extension to quickly start a server.
+
+1. **Install Live Server Extension**:
+
+   - Open VS Code and navigate to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
+   - Search for "Live Server" and click on the install button.
+
+2. **Open the Project**:
+
+   - Open the project folder in VS Code by going to File > Open Folder and selecting the `alu-web-scraping` directory.
+
+3. **Start Live Server**:
+
+   - Right-click on the `index.html` file in the VS Code explorer and select "Open with Live Server", or click on the "Go Live" button at the bottom right of the VS Code window.
+   - Your default web browser will open, and the project will be served from a local URL, typically `http://127.0.0.1:5500`.
+
+     ### Accessing the Web Application
+
+- Open your web browser and go to the URL provided by Live Server or `http-server`. You should now see the project running and can interact with the web application.
+- Navigate through the application sections to test different Regex patterns and data types as per the project's features.
+
+This setup enables real-time interaction with the project, allowing you to view changes live as you modify files or experiment with different Regular Expressions.
+
+ <img width="690" alt="piechart" src="https://github.com/Lydia02/alu-web-scraping/assets/37791436/67bf45e5-c36e-4833-ad23-00d127826caf">
 
 ## Troubleshooting
 
@@ -71,8 +119,6 @@ To test the visualization:
 
 ## Contributors
 
-List of project contributors.
+ALU January 2024 cohort 1&2
 
-## License
-
-Define the license under which the project is released.
+    ## License
