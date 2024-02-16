@@ -43,7 +43,7 @@ Ensure Node.js is installed on your system, then follow these steps:
 
 ## Dependencies
 
-- ![Node.js](images/nodejs-ar21.svg)
+- ![Node.js](images/nodejs-icon.svg)
 - ![Selenium WebDriver](images/selenium%20logo.png)
 - ![Chart.js](images/chartjs.png)
 - ![jQuery](images/jquery-ar21.svg)
