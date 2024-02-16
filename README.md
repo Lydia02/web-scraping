@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Based on your request, I've updated the README to include a project name that reflects its focus on web scraping and data visualization, along with adding a testing section to guide through visualizing the graph using the HTML file.
 
 ---
@@ -80,3 +81,7 @@ List of project contributors.
 ## License
 
 Define the license under which the project is released.
+=======
+# alu-web-scraping group project
+#This projects aims to test the understanding of web scraping and use of some other libraries
+>>>>>>> 141043746d5da04711d9e80bccb899ab645150bc
