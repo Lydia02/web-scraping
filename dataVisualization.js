@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 function parseData(data) {
     // Transform data into the suitable format for charting
-    // For simplicity, this example assumes data is directly usable after parsing
+    // For simplicity, this example assumes data is directly usable after parsing.
     return data;
 }
 function createChart(smartphones) {
