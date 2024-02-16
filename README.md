@@ -110,7 +110,7 @@ This setup enables real-time interaction with the project, allowing you to view 
 ## Contributors
 
 ALU January 2024 Cohort 1, 2, and 3
-ALU May 2023
+ALU May 2023.
 
 ## License
 
