@@ -1,8 +1,8 @@
 (function() {
     $(document).ready(function() {
-        $.getJSON('scrapedData.json', function(data) {
+        $.getJSON('extractedData/scrapedDataJumia.json', function(data) {
             var smartphones = parseData(data);
-            createChart(smartphones, 'pricingTrendsChartNigeria');
+            createChart(smartphones, 'pricingTrendsChartJumia');
         });
     });
 
@@ -18,7 +18,7 @@
             data: {
                 labels: smartphones.map(item => item.scrapeDateTime),
                 datasets: [{
-                    label: 'Smartphone Price in Nigeria',
+                    label: 'Smartphone Price On Jumia Nigeria',
                     data: smartphones.map(item => parseFloat(item.productPrice.replace('₦ ', '').replace(',', ''))),
                     fill: false,
                     borderColor: 'rgb(75, 192, 192)',

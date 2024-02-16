@@ -1,14 +1,16 @@
 (function() {
     $(document).ready(function() {
-        $.getJSON('scrapedDataGhana.json', function(data) {
+        $.getJSON('extractedData/scrapedDataEbay.json', function(data) {
             var smartphones = parseData(data);
-            createChart(smartphones, 'pricingTrendsChartGhana');
+            createChart(smartphones, 'pricingTrendsChartEbay');
         });
     });
 
     function parseData(data) {
-        // Adjust this parsing logic as necessary for your data structure
-        return data;
+        return data.map(item => {
+            item.productPrice = parseFloat(item.productPrice.replace('$', '').replace(',', ''));
+            return item;
+        });
     }
 
     function createChart(smartphones, canvasId) {
@@ -18,10 +20,10 @@
             data: {
                 labels: smartphones.map(item => item.scrapeDateTime),
                 datasets: [{
-                    label: 'Smartphone Price in Ghana',
-                    data: smartphones.map(item => parseFloat(item.productPrice.replace('GH₵ ', '').replace(',', ''))),
+                    label: 'Smartphone Price on Ebay',
+                    data: smartphones.map(item => item.productPrice),
                     fill: false,
-                    borderColor: 'rgb(255, 205, 86)',
+                    borderColor: 'rgb(255, 159, 64)',
                     tension: 0.1
                 }]
             },
@@ -29,8 +31,7 @@
                 plugins: {
                     legend: {
                         labels: {
-                            // Change the color here
-                            color: 'rgb(240, 248, 255)' // Example color
+                            color: 'rgb(240, 248, 255)'
                         }
                     }
                 },

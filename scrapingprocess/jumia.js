@@ -36,7 +36,7 @@ async function scrapeSmartphones() {
     } finally {
         await driver.quit(); // Ensure the driver quits regardless of success or failure
         // Write the array to a file
-        fs.writeFile('scrapedData.json', JSON.stringify(products, null, 2), (err) => {
+        fs.writeFile('extractedData\scrapedDataJumia.json', JSON.stringify(products, null, 2), (err) => {
             if (err) {
                 console.error('Error writing data to file:', err);
                 return;
