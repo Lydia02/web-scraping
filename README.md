@@ -114,7 +114,7 @@ This setup enables real-time interaction with the project, allowing you to view 
 
 | Contributors | Contributors |
 | --- | --- |
-| Chiedu Unekwe | Simeon Azeh Kongnyuy |
+| Chiedu Unekwe | Ojoawo Lydia |
 | Chol Daniel Deng Dau | Kanisa Thiak |
 | Divine Nubuhoro | Bugingo Cysron |
 | Nagasaro Ghislaine I. | Placide Imanzi |
@@ -129,7 +129,7 @@ This setup enables real-time interaction with the project, allowing you to view 
 | Umutoni Kevine | David Niyonshuti |
 | Patrick Mukunzi | Nyinawabagesera Jacqueline |
 | Akoto-Nimoh Christine Serwaa | Joyce Moses Brown |
-| Lydia Ojoawo | Nduka-aku Oluchi Rejoice |
+|  Simeon Azeh Kongnyuy | Nduka-aku Oluchi Rejoice |
 | Armand Kayiranga | Dennis Mwai |
 
 
