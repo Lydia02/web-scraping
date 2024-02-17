@@ -112,7 +112,27 @@ This setup enables real-time interaction with the project, allowing you to view 
 
 ## Contributors
 
-ALU Software Engineering January 2024 cohort 1&2
+| Contributors | Contributors |
+| --- | --- |
+| Chiedu Unekwe | Simeon Azeh Kongnyuy |
+| Chol Daniel Deng Dau | Kanisa Thiak |
+| Divine Nubuhoro | Bugingo Cysron |
+| Nagasaro Ghislaine I. | Placide Imanzi |
+| Grace Munezero | Azeez Dam |
+| Nhial Majok Riak Maketh | Ganza Owen Yhaan |
+| Leslie Isaro | Amandine Irakoze |
+| Alain Michael Muhirwa | Okeke Kosisochukwu |
+| Ndizeye lesly | Karambizi Chance |
+| Nicolle Nyasha Marizani | Amelie umutoni |
+| DengOmar Keita | Ajang Chol Aguer |
+| Daniel Marial Reng Kudum | Ogbuagu Bridget Chimdinma |
+| Umutoni Kevine | David Niyonshuti |
+| Patrick Mukunzi | Nyinawabagesera Jacqueline |
+| Akoto-Nimoh Christine Serwaa | Joyce Moses Brown |
+| Lydia Ojoawo | Nduka-aku Oluchi Rejoice |
+| Armand Kayiranga | Dennis Mwai |
+
+
 
 #### Link to the presentation slides
 
