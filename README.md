@@ -103,8 +103,7 @@ If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live 
 This setup enables real-time interaction with the project, allowing you to view the visualized data.
 
 
-<img width="960" alt="finallydone" src="https://github.com/Lydia02/alu-web-scraping/assets/37791436/8a4660e4-c62d-4e7e-94c3-a402d1772728">
-
+<img width="944" alt="cssfine" src="https://github.com/Lydia02/alu-web-scraping/assets/37791436/aa71539f-3ca6-47fe-9185-8a7ead30f016">
 
 ## Troubleshooting
 
