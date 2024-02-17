@@ -98,7 +98,7 @@ If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live 
      ### Accessing the Web Application
 
 - Open your web browser and go to the URL provided by Live Server or `http-server`. You should now see the project running and can interact with the web application.
-- Navigate through the application sections to test different Regex patterns and data types as per the project's features.
+- Navigate through the application sections to test the project's features.
 
 This setup enables real-time interaction with the project, allowing you to view the visualized data.
 
