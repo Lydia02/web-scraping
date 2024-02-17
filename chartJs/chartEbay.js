@@ -18,8 +18,8 @@
         new Chart(ctx, {
             type: 'line',
             data: {
-                labels: smartphones.map(item => item.scrapeDateTime),
-                datasets: [{
+                labels: smartphones.map((_, index) => `${index + 1}`),
+                 datasets: [{
                     label: 'Smartphone Price on Ebay',
                     data: smartphones.map(item => item.productPrice),
                     fill: false,
@@ -37,7 +37,12 @@
                 },
                 scales: {
                     y: {
-                        beginAtZero: true
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '$' + value;
+                            }
+                        }
                     }
                 }
             }

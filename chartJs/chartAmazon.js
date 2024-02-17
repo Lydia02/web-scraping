@@ -20,7 +20,7 @@
         new Chart(ctx, {
             type: 'line',
             data: {
-                labels: smartphones.map(item => item.scrapeDateTime),
+                labels: smartphones.map((_, index) => `${index + 1}`),
                 datasets: [{
                     label: 'Smartphone Price on Amazon',
                     data: smartphones.map(item => item.productPrice),
@@ -39,7 +39,12 @@
                 },
                 scales: {
                     y: {
-                        beginAtZero: true
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '$' + value;
+                            }
+                        }
                     }
                 }
             }

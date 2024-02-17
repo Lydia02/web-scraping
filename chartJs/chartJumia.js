@@ -16,7 +16,7 @@
         new Chart(ctx, {
             type: 'line',
             data: {
-                labels: smartphones.map(item => item.scrapeDateTime),
+                labels: smartphones.map((_, index) => ` ${index + 1}`),
                 datasets: [{
                     label: 'Smartphone Price On Jumia Nigeria',
                     data: smartphones.map(item => parseFloat(item.productPrice.replace('₦ ', '').replace(',', ''))),
@@ -36,7 +36,12 @@
                 },
                 scales: {
                     y: {
-                        beginAtZero: true
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '₦' + value;
+                            }
+                        }
                     }
                 }
             }

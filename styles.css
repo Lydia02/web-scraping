@@ -1,28 +1,36 @@
 body {
-    background-color: #03223b; /* Light gray background */
-    height: 100vh;
+    background-color: #03223b; /* Dark blue background */
+    color: aliceblue; /* Light text color for better contrast */
     margin: 0;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-h1{
-    color: aliceblue;
-   align-items: center;
-   margin: 10;
-   justify-content: center
-
+    padding: 20px; /* Add some padding around the content */
+    display: flex;
+    flex-direction: column; /* Align content in a column */
+    align-items: center; /* Center-align items horizontally */
 }
 
-/* charts.css */
+h1 {
+    margin: 20px 0; /* Add some margin around the heading */
+}
+
+/* Ensure the .chart-container allows for wrapping and takes up full width */
 .chart-container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center; /* Center charts horizontally */
+    width: 100%; /* Take up full container width */
+    gap: 20px; /* Add some space between chart boxes */
+    margin-bottom: 20px; /* Space below the container */
 }
 
 .chart-box {
-    width: 45%; /* Adjust the width as needed for your layout */
-    height: 230px; /* Adjust the height as needed */
+    flex: 1; /* Allow boxes to grow */
+    min-width: 280px; /* Minimum width for smaller screens */
+    height: 300px; /* Adjust height for better visibility */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
+}
+
+/* Additional styles for scrollability */
+html, body {
+    height: 100%;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
