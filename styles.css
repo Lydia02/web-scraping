@@ -1,36 +1,45 @@
 body {
     background-color: #03223b; /* Dark blue background */
     color: aliceblue; /* Light text color for better contrast */
+    font-family: Arial, sans-serif; /* Improve readability */
     margin: 0;
     padding: 20px; /* Add some padding around the content */
     display: flex;
-    flex-direction: column; /* Align content in a column */
-    align-items: center; /* Center-align items horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align the content for a better presentation on wider screens */
 }
 
 h1 {
-    margin: 20px 0; /* Add some margin around the heading */
+    text-align: center; /* Ensure the title is centered */
+    margin: 20px 0; /* Add some space around the title */
 }
 
-/* Ensure the .chart-container allows for wrapping and takes up full width */
+/* Responsive design adjustments */
 .chart-container {
+    width: 100%; /* Use the full width of the container */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center charts horizontally */
-    width: 100%; /* Take up full container width */
-    gap: 20px; /* Add some space between chart boxes */
-    margin-bottom: 20px; /* Space below the container */
+    flex-wrap: wrap; /* Allow charts to wrap on smaller screens */
+    justify-content: center; /* Center-align the charts */
+    gap: 20px; /* Add some space between the charts */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    padding-bottom: 20px; /* Extra space at the bottom */
 }
 
 .chart-box {
-    flex: 1; /* Allow boxes to grow */
-    min-width: 280px; /* Minimum width for smaller screens */
+    width: 90%; /* Make charts use more of the screen on smaller devices */
+    min-width: 300px; /* Minimum width to ensure charts are legible */
     height: 300px; /* Adjust height for better visibility */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
 }
 
-/* Additional styles for scrollability */
-html, body {
-    height: 100%;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+/* Adjust chart width on larger screens */
+@media (min-width: 768px) {
+    .chart-box {
+        width: 45%; /* Show 2 charts per row on larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .chart-box {
+        width: 30%; /* Show 3 charts per row on even larger screens */
+    }
 }
