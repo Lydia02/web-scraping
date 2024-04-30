@@ -110,33 +110,8 @@ This setup enables real-time interaction with the project, allowing you to view 
 - **Web Scraping**: If errors occur, verify the target website's structure, your internet connection, and Selenium WebDriver setup.
 - **Visualization**: Ensure `scrapedDataJumia.json`, `scrapedDataEbay.json`, `scrapedDataAmazon.json` is properly formatted and all dependencies are installed correctly.
 
-## Contributors
-
-| Contributors | Contributors |
-| --- | --- |
-| Chiedu Unekwe | Ojoawo Lydia |
-| Chol Daniel Deng Dau | Kanisa Thiak |
-| Divine Nubuhoro | Bugingo Cysron |
-| Nagasaro Ghislaine I. | Placide Imanzi |
-| Grace Munezero | Azeez Dam |
-| Nhial Majok Riak Maketh | Ganza Owen Yhaan |
-| Leslie Isaro | Amandine Irakoze |
-| Alain Michael Muhirwa | Okeke Kosisochukwu |
-| Ndizeye lesly | Karambizi Chance |
-| Nicolle Nyasha Marizani | Amelie umutoni |
-| DengOmar Keita | Ajang Chol Aguer |
-| Daniel Marial Reng Kudum | Ogbuagu Bridget Chimdinma |
-| Umutoni Kevine | David Niyonshuti |
-| Patrick Mukunzi | Nyinawabagesera Jacqueline |
-| Akoto-Nimoh Christine Serwaa | Joyce Moses Brown |
-|  Simeon Azeh Kongnyuy | Nduka-aku Oluchi Rejoice |
-| Armand Kayiranga | Dennis Mwai |
 
 
-
-#### Link to the presentation slides
-
-https://docs.google.com/presentation/d/1hujBbkSpju1Ya6T6bBkqL5QTimKBcsv9GgTJ3sgKHoU/edit?usp=sharing
 
   ## License
 
